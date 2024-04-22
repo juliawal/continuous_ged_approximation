@@ -6,13 +6,17 @@ Python 3.11.3 ('base') /opt/homebrew/anaconda3/bin/python
 
 #imports
 import sys
-sys.path.append('/Users/juliamarlene/Documents/Studium_aktuell/NS_Projekt/Code')
+#sys.path.append('/Users/juliamarlene/Documents/Studium_aktuell/NS_Projekt/Code')
 import pandas as pd
 import torch
 import os 
 import matplotlib.pyplot as plt
 import matplotlib
 import networkx as nx
+import numpy as np
+import timeit
+import glob
+import scipy as sp
 from graphkit_learn.gklearn.dataset import TUDataset_META
 from graphkit_learn.gklearn.utils.graphfiles import loadDataset
 from graphkit_learn.gklearn.dataset import Dataset
@@ -21,10 +25,6 @@ from deepged.xp_sinkhorn.sinkdiff import sink_utils
 from deepged.xp_sinkhorn.sinkdiff import sinkdiff
 from scipy.optimize import linear_sum_assignment
 import deepged.deepged.label_manager as lm
-import numpy as np
-import timeit
-import glob
-import scipy as sp
 
 matplotlib.use('TkAgg')
 
