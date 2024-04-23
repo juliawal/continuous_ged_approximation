@@ -390,5 +390,5 @@ if __name__ == "__main__":
             T_max = i
             T_param = j
             df  = run(df,T_max,T_param)
-    os.makedirs('ergebnis', exist_ok=True)  
-    df.to_csv('ergebnis/acyclic_all.csv')
+    os.makedirs('results', exist_ok=True)  
+    df.to_csv('results/acyclic_all.csv')
