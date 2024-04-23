@@ -391,4 +391,4 @@ if __name__ == "__main__":
             T_param = j
             df  = run(df,T_max,T_param)
     os.makedirs('ergebnis', exist_ok=True)  
-    df.to_csv('ergebnis/mao_all.csv')
+    df.to_csv('ergebnis/acyclic_all.csv')
