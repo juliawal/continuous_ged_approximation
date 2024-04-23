@@ -1,1 +1,2 @@
-Test
+In this repository under 'main/ged.py' the performance of the GED heuristic BRANCH using the extended Sinkhorn algorithm is being compared to BRANCH using the Hungarian algorithm on real-world GED instances created from the datasets Acyclic, MAO and RNA_trees.
+The code is based on the work of Benoit Gaüzère and Luc Brun on the extended Sinkhorn algorithm. In the folder 'deepged' you can find parts of their code that have been used. Also parts of the python package graphkit_learn by Linlin Jia, Benoit Gaüzère and Paul Honeine has been used and are found in 'graphkit_learn'.
