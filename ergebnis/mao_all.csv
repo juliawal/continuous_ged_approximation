@@ -1,3 +1,0 @@
-,Matching Cost Hungarian,Matching Cost Sinkhorn,Matching Cost Sinkhorn Projection,Induced Edit Cost Hungarian,Induced Edit Cost Sinkhorn,Relative Diversion Matching Cost Sinkhorn,Relative Diversion Matching Cost Sinkhorn Projection,Relative Error Upper Bound,Entropy Sinkhorn Assignment,Runtime Hungarian,Runtime Sinkhorn,Runtime Sinkhorn Projection,T_max,T_param
-0,2.0,9.524947665631771,2.0,2.0,2.0,2.508315888543924,0.0,0.0,10.007506132125854,2.333021257072687e-06,0.007810749986674637,0.008169249980710447,5.0,3.0
-1,7.0,13.952575266361237,7.0,10.0,9.0,0.8690719082951546,0.0,-0.09090909090909091,12.738900661468506,2.458051312714815e-06,0.00021583301713690162,0.00023283297196030617,5.0,3.0
