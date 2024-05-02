@@ -53,7 +53,7 @@ def run(df, alpha, beta, dataset):
     #Acyclic dataset
     if dataset == 'acyclic':
         rna_tree = False
-        path_dataset = os.path.join(absolute_path, 'deepged/data/Acyclic/dataset_bps.ds')
+        path_dataset = os.path.join(absolute_path, 'Acyclic/dataset_bps.ds')
         print(path_dataset)
         Gs, y = load_dataset(path_dataset)
 
@@ -68,7 +68,7 @@ def run(df, alpha, beta, dataset):
     #MAO dataset (with edge labels)
     if dataset == 'mao':
         rna_tree = False
-        path_dataset = os.path.join(absolute_path, 'deepged/data/MAO/dataset.ds')
+        path_dataset = os.path.join(absolute_path, 'MAO/dataset.ds')
         Gs, y = load_dataset(path_dataset)
 
         #compute extended labels
@@ -83,7 +83,7 @@ def run(df, alpha, beta, dataset):
     if dataset == 'rna_tree':
         rna_tree = True
         Gs = []
-        paths = glob.glob(os.path.join(absolute_path, 'deepged/data/RNA_trees/*/1.txt'))
+        paths = glob.glob(os.path.join(absolute_path, 'RNA_trees/*/1.txt'))
         for path in paths:
             G = nx.readwrite.gml.read_gml(path,label='id')
             Gs.append(G)
